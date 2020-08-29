@@ -1,29 +1,14 @@
-*{
-	box-sizing: border-box;
-	padding: 10px 10px;
+
+.row{
+	width: 100%;
 }
 
-p{
-	border: 2px solid black;
-	
-	width:90%;
-	height: auto;
-	background-color: cornflowerblue;
-	margin-right: auto;
-	margin-left: auto;
-	color: cornsilk;
-	font-weight: 700;
-	
-	
-}
-.row{
-	width: 100%; 
-}
+
 
 @media (min-width: 992px) {
 	.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
 	  float: left;
-	  
+
 	}
 	.col-lg-1 {
 	  width: 8.33%;
@@ -105,15 +90,15 @@ p{
 	  width: 100%;
 	}
   }
-  
+
 
   @media (max-width:767px){
 	.col-sg-1,.col-sg-2,.col-sg-3,.col-sg-4,.col-sg-5,.col-sg-6,
 		.col-sg-7,.col-sg-8,.col-sg-9,.col-sg-10,.col-sg-11,.col-sg-12 {
-		
-			
+
+
 			float: left;
-	
+
 	}
 
 	.col-sg-1 {
@@ -152,4 +137,4 @@ p{
 	  .col-sg-12 {
 		width: 100%;
 	  }
-} 
+}
